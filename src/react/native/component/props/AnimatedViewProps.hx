@@ -11,6 +11,5 @@ import haxe.extern.EitherType;
 
 typedef AnimatedViewProps = {
 	> ViewPropsWithoutStyle,
-	?style:haxe.extern.EitherType<haxe.extern.EitherType<ViewStyle, AnimatedViewStyle>,
-								Array<haxe.extern.EitherType<ViewStyle, AnimatedViewStyle>>>,//after
+	?style:haxe.extern.EitherType<haxe.extern.EitherType<ViewStyle, AnimatedViewStyle>, Array<Dynamic>>,
 }
